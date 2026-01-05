@@ -1,5 +1,4 @@
 Markdown==3.10
-mysql
 mysql-connector-python==9.5.0
 PyQt6==6.10.1
 PyQt6-Qt6==6.10.1
