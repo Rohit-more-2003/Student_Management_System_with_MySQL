@@ -11,9 +11,11 @@ import sys
 # this module is used to connect with mysql database
 import mysql.connector
 
+# this module is used to import keys to database
+from database_login import host, user, password, database
 
 class DatabaseConnection:
-    def __init__(self, host="localhost", user="root", password="pythoncourse", database="school"):
+    def __init__(self, host=host, user=user, password=password, database=database):
         self.host = host
         self.user = user
         self.password = password
