@@ -5,13 +5,8 @@ from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QGridLayout, \
 from PyQt6.QtGui import QAction, QIcon
 import sys
 
-# this module is used to connect with sqlite database
-#import sqlite3
-
-# this module is used to connect with mysql database
 import mysql.connector
 
-# this module is used to import keys to database
 from database_login import host, user, password, database
 
 class DatabaseConnection:
